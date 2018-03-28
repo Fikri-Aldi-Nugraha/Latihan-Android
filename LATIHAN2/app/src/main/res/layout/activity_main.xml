@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.latihan2.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:id="@+id/txtnama"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:id="@+id/txtemail"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No.Telp"
+            android:id="@+id/txtno_tlp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/txtpassword"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Repasword"
+            android:inputType="textPassword"
+            android:id="@+id/txtrepassword"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="BUTTON"
+            android:id="@+id/btn1"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:id="@+id/btn2"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+        android:id="@+id/btn3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="int data int data int data int data int dataint dataint data int data int data
+int data int data int data int data int dataint dataint data int data int data int data int data int data int data int dataint dataint data int data int data
+int data int data int data int data int dataint dataint data int data int data int data int data int data int data int dataint dataint data int data int data
+int data int data int data int data int dataint dataint data int data int data int data int data int data int data int dataint dataint data int data int data
+int data int data int data int data int dataint dataint data int data int data int data int data int data int data int dataint dataint data int data int data
+int data int data int data int data int dataint dataint data int data int data int data int data int data int data int dataint dataint data int data int data
+int data int data int data int data int dataint dataint data int data int data int data int data int data int data int dataint dataint data int data int data
+int data int data int data int data int dataint dataint data int data int data int data int data int data int data int dataint dataint data int data int data
+int data int data int data int data int dataint dataint data int data int data int data int data int data int data int dataint dataint data int data int data" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
