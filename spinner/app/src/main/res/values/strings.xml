@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">spinner</string>
+
+    <string-array name="merk_motor">
+        <item>Pilih Motor</item>
+        <item>HONDA</item>
+        <item>YAMAHA</item>
+        <item>KAWASAKI</item>
+        <item>SUZUKI</item>
+        <item>KTM</item>
+    </string-array>
+</resources>
