@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/FABmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:menu_colorNormal="#283593"
+        app:menu_colorPressed="#424242"
+        app:menu_labels_colorNormal="#29B6F6"
+        app:menu_labels_colorPressed="#FF00786D">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/Input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="input"
+            app:fab_colorNormal="#283593"
+            app:fab_colorPressed="#424242"
+            app:fab_label="Input"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/Update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#283593"
+            app:fab_colorPressed="#424242"
+            app:fab_label="Update"
+            android:onClick="Update"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#283593"
+            app:fab_colorPressed="#424242"
+            app:fab_label="Delete"
+            android:onClick="Delete"
+            app:fab_size="mini" />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29B6F6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Akademik"
+        android:textSize="50dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/FABmenu"
+        app:menu_colorPressed="#424242"
+        app:menu_colorNormal="#283593"
+        app:menu_labels_colorNormal="#29B6F6"
+        app:menu_labels_colorPressed="#FF00786D">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Course"
+            app:fab_label="Course"
+            app:fab_size="mini"
+            android:src="@drawable/ic_layers"
+            app:fab_colorNormal="#283593"
+            app:fab_colorPressed="#424242"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Major"
+            app:fab_label="Major"
+            app:fab_size="mini"
+            android:src="@drawable/ic_work"
+            app:fab_colorNormal="#283593"
+            app:fab_colorPressed="#424242"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Student"
+            app:fab_label="Student"
+            app:fab_size="mini"
+            android:src="@drawable/ic_person_pin"
+            app:fab_colorNormal="#283593"
+
+            app:fab_colorPressed="#424242"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/StuCour"
+            app:fab_label="Student Course"
+            app:fab_size="mini"
+            android:src="@drawable/ic_event_available"
+            app:fab_colorNormal="#283593"
+            app:fab_colorPressed="#424242"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <ImageView
+        android:layout_width="256dp"
+        android:layout_height="322dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/ic_android" />
+
+</RelativeLayout>

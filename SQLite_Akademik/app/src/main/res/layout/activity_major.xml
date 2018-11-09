@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Major">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Major"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"/>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </ListView>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="270dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/FABmenu"
+        app:menu_colorPressed="#424242"
+        app:menu_colorNormal="#283593"
+        app:menu_labels_colorNormal="#212121"
+        app:menu_labels_colorPressed="#FF00786D">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Course"
+            app:fab_label="Course"
+            app:fab_size="mini"
+            android:src="@drawable/ic_layers"
+            app:fab_colorNormal="#283593"
+            app:fab_colorPressed="#424242"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Tambah"
+            app:fab_label="Tambah Data"
+            app:fab_size="mini"
+            android:src="@drawable/ic_add"
+            app:fab_colorNormal="#283593"
+            app:fab_colorPressed="#424242"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Student"
+            app:fab_label="Student"
+            app:fab_size="mini"
+            app:fab_colorNormal="#283593"
+            android:src="@drawable/ic_person_pin"
+            app:fab_colorPressed="#424242"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/StuCour"
+            app:fab_label="Student Course"
+            app:fab_size="mini"
+            android:src="@drawable/ic_event_available"
+            app:fab_colorNormal="#283593"
+            app:fab_colorPressed="#424242"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+</RelativeLayout>
