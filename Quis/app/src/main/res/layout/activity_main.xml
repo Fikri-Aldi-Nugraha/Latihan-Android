@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<EditText
+    android:id="@+id/edtnama"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:hint="Nama"
+    android:textAlignment="center" />
+
+<EditText
+    android:id="@+id/edtemail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:hint="Email"
+    android:textAlignment="center" />
+
+<EditText
+    android:id="@+id/edtnotel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:hint="No Telepon"
+    android:textAlignment="center" />
+
+<EditText
+    android:id="@+id/edtalamat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:hint="Alamat"
+    android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnsmn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:onClick="simpan"
+        android:text="Simpan" />
+
+
+    <Button
+        android:id="@+id/btntmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:onClick="tampil"
+        android:text="Tampil" />
+
+</LinearLayout>
